@@ -1,5 +1,6 @@
 import React from 'react';
 import { Users, Clapperboard, Sparkles } from 'lucide-react';
+import filmMakingImage from '../assets/images/ecu_film_making_1793810479939.jpg';
 
 export const AboutPage: React.FC = () => {
   return (
@@ -35,7 +36,7 @@ export const AboutPage: React.FC = () => {
           {/* Authentic ECU Filmmaking Production Image */}
           <div className="rounded-2xl overflow-hidden shadow-sm border border-[#E5E5E0] dark:border-stone-700 bg-stone-100 dark:bg-stone-800 aspect-[16/10] relative group">
             <img
-              src="/src/assets/images/ecu_film_making_1793810479939.jpg"
+              src={filmMakingImage}
               alt="ECU Student Filmmaking Set with Camera Operator, Director, and Actors"
               className="w-full h-full object-cover group-hover:scale-[1.01] transition-transform duration-500"
             />
