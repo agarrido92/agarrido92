@@ -1,6 +1,7 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
 import { Users, Clapperboard, ArrowRight, Sparkles } from 'lucide-react';
+import heroImage from '../assets/images/ecu_theatre_hero_1793809925614.jpg';
 
 export const HomePage: React.FC = () => {
   const { navigateTo } = useApp();
@@ -11,7 +12,7 @@ export const HomePage: React.FC = () => {
       <div className="rounded-3xl overflow-hidden border border-[#E5E5E0] dark:border-stone-700 shadow-sm relative w-full h-[380px] sm:h-[460px] md:h-[500px] group bg-stone-900">
         {/* Full-size theatrical production image accommodating the full container */}
         <img
-          src="/src/assets/images/ecu_theatre_hero_1793809925614.jpg"
+          src={heroImage}
           alt="East Carolina University School of Theatre and Dance Stage Performance"
           className="w-full h-full object-cover object-center group-hover:scale-[1.01] transition-transform duration-700"
         />
