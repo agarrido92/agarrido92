@@ -1,0 +1,6 @@
+{
+  "name": "ECU Performer Connect",
+  "description": "Connecting performers and filmmakers in the East Carolina University community for casting calls, auditions, resumes, and creative collaborations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
